@@ -43,14 +43,14 @@
             <a-asset-item id="mtl" src="obj.mtl"></a-asset-item>
         </a-assets>
         <a-marker type="pattern" url="sei.patt">
-            <a-obj-model id="model" src="#obj" mtl="#mtl" scale="0.1 0.1 0.1" rotation="0 180 0" position="0 0 0"></a-obj-model>
+            <a-obj-model id="model" src="#obj" mtl="#mtl" scale="0.1 0.1 0.1" rotation="1070 900 900" position="0.2 -3.5 0.4"></a-obj-model>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
     
     <div id="info">
-        <div id="position">Position: (0, 0, 0)</div>
-        <div id="rotation">Rotation: (0, 180, 0)</div>
+        <div id="position">Position: (0.2, -3.5, 0.4)</div>
+        <div id="rotation">Rotation: (1070, 900, 900)</div>
     </div>
 
     <div id="controls">
@@ -76,8 +76,8 @@
     
     <script>
         // モデルの初期位置と向き
-        const initialPosition = { x: 0, y: 0, z: 0 };
-        const initialRotation = { x: 0, y: 180, z: 0 };
+        const initialPosition = { x: 0.2, y: -3.5, z: 0.4 };
+        const initialRotation = { x: 1070, y: 900, z: 900 };
         const initialScale = { x: 0.1, y: 0.1, z: 0.1 };
 
         // モデルの初期設定
